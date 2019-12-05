@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister&display=swap');
+
+body {
+    background-image: url("https://github.com/svcampos/visualpro/blob/master/imagens/fundoindex.jpg?raw=true");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#cabecalho {
+    width: 94%;
+    height: 90%;
+    margin: auto auto;
+}
+
+#cabecalho h1 {
+    display: none;
+}
+
+#menu ul {
+    position: fixed;
+    width: 32%;
+    height: 7%;
+    margin: 35.8% 29.5%;
+    background-image: url("https://github.com/svcampos/visualpro/blob/master/imagens/menu.png?raw=true");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#menu li {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-weight: bold;
+    position: relative;
+    padding: 0% 4%;
+    margin: 3.5% 2.5%;
+    display: inline-block;
+    list-style: none;
+    text-shadow: 2px 2px 2px black;
+}
+
+#menu a {
+    color: #804d00;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: #ffffff;
+}
+
+#acesso ul {
+    position: fixed;
+    width: 5vw;
+    height: 3vw;
+    margin: 29.5% 39.5%;
+}
+
+#acesso li {
+    font-family: 'Love Ya Like A Sister', cursive;
+    position: relative;
+    padding-left: 10%;
+    padding-top: 1%;
+    width: 7.5vw;
+    height: 1.5vw;
+    margin: 4%;
+    text-shadow: 1px 1px 1px black;
+    background-image: url("https://github.com/svcampos/visualpro/blob/master/imagens/li.png?raw=true");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-size: 1vw;
+}
+
+#acesso a {
+    color: #804d00;
+    text-decoration: none;
+}
+
+#acesso a:hover {
+    color: white;
+}
+
+#acesso li:hover {
+    font-size: 1.1vw;
+    width: 8vw;
+    height: 2vw;
+    cursor: pointer;
+}

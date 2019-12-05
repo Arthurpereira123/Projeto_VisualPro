@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister&display=swap');
+
+body {
+    background-image: url("https://github.com/svcampos/visualpro/blob/master/imagens/fundo.jpg?raw=true");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#cabecalho {
+    width: 94%;
+    height: 90%;
+    margin: auto auto;
+}
+
+#cabecalho h1 {
+    display: none;
+}
+
+#menu ul {
+    position: fixed;
+    width: 32%;
+    height: 7%;
+    margin: 35.8% 29.5%;
+    background-image: url("https://github.com/svcampos/visualpro/blob/master/imagens/menu.png?raw=true");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#menu li {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-weight: bold;
+    position: relative;
+    padding: 0% 4%;
+    margin: 3.5% 2.5%;
+    display: inline-block;
+    list-style: none;
+    text-shadow: 2px 2px 2px black;
+}
+
+#menu a {
+    color: #804d00;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: #ffffff;
+}
+
+#imgcadastro {
+    position: fixed;
+    margin: 17% 31.9%;
+    width: 30vw;
+    height: 18vw;
+}
+
+p {
+    position: fixed;
+    margin: 34.5% 31%;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
